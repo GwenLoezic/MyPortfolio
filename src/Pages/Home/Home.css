@@ -53,6 +53,7 @@
     align-items: center;
     font-size: 14px;
     margin-top: 20px;
+    line-height: 20px;
     color: grey;
   }
 
@@ -126,6 +127,7 @@
     text-align: center;
     font-size: 14px;
     margin-top: 20px;
+    line-height: 20px;
     color: grey;
   }
 
@@ -196,6 +198,7 @@
     align-items: center;
     font-size: 18px;
     margin-top: 20px;
+    line-height: 25px;
     color: grey;
   }
 
@@ -270,6 +273,7 @@
     text-align: center;
     font-size: 18px;
     margin-top: 20px;
+    line-height: 25px;
     color: grey;
   }
 
@@ -340,6 +344,7 @@
     align-items: center;
     font-size: 18px;
     margin-top: 20px;
+    line-height: 30px;
     color: grey;
   }
 
@@ -414,6 +419,7 @@
     text-align: center;
     font-size: 18px;
     margin-top: 20px;
+    line-height: 30px;
     color: grey;
   }
 
