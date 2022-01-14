@@ -1,0 +1,886 @@
+/* XSmall devices (landscape phones, 360px and up) */
+@media (min-width: 360px) {
+  /* Rules */
+  .formulaire {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: row;
+    height: 100%;
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .bloc1-formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    background: #635bff;
+    color: white;
+  }
+
+  .title-formulaire h1 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .title-formulaire p {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+
+  .information-formulaire {
+  }
+
+  .iconText-formulaire {
+    display: flex;
+    padding: 0px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .iconText-formulaire .icon {
+    padding: 0px;
+    font-size: 16px;
+  }
+
+  .iconText-formulaire .text {
+    padding: 0px;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+
+  .socialMedia-formulaire {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .social-icon {
+    font-size: 20px;
+  }
+
+  .social-icon a {
+    display: flex;
+    align-items: center;
+  }
+
+  .bloc2-formulaire {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: auto;
+    width: auto;
+    background: #fafafc;
+    font-size: 14px;
+  }
+
+  .bloc2-formulaire .group1 {
+    display: row;
+    justify-content: space-between;
+  }
+  .bloc2-formulaire .group2 {
+    display: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .input-form {
+    display: flex;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 20px;
+    width: 100%;
+    background-color: #fafafc;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .bloc2-radioButton {
+    margin-top: 40px;
+  }
+
+  .radio-button {
+    margin-top: 20px;
+  }
+
+  .container-radioButton {
+    display: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .radioButton-container {
+  }
+
+  .message-formualaire {
+    margin-top: 40px;
+  }
+
+  .label-message {
+    display: flex;
+  }
+
+  .message {
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    background-color: #fafafc;
+  }
+
+  .btn-formulaire {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+  }
+
+  .primaryBtn {
+    font-size: 10px;
+  }
+
+  .input-form:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #05f7ff;
+  }
+
+  .message:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #05f7ff;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  /* Rules */
+  .formulaire {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .bloc1-formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    background: #635bff;
+    color: white;
+  }
+
+  .title-formulaire h1 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .title-formulaire p {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+
+  .information-formulaire {
+  }
+
+  .iconText-formulaire {
+    display: flex;
+    padding: 0px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .iconText-formulaire .icon {
+    padding: 0px;
+    font-size: 16px;
+  }
+
+  .iconText-formulaire .text {
+    padding: 0px;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+
+  .socialMedia-formulaire {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .social-icon {
+    font-size: 20px;
+  }
+
+  .social-icon a {
+    display: flex;
+    align-items: center;
+  }
+
+  .bloc2-formulaire {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+    width: 50%;
+    background: #fafafc;
+    font-size: 14px;
+  }
+
+  .bloc2-formulaire .group1 {
+    display: row;
+    justify-content: space-between;
+  }
+  .bloc2-formulaire .group2 {
+    display: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .input-form {
+    display: flex;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 20px;
+    width: 100%;
+    background-color: #fafafc;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .bloc2-radioButton {
+    margin-top: 40px;
+  }
+
+  .radio-button {
+    margin-top: 20px;
+  }
+
+  .container-radioButton {
+    display: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .radioButton-container {
+  }
+
+  .message-formualaire {
+    margin-top: 40px;
+  }
+
+  .label-message {
+    display: flex;
+  }
+
+  .message {
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    background-color: #fafafc;
+  }
+
+  .btn-formulaire {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+  }
+
+  .primaryBtn {
+    font-size: 12px;
+  }
+
+  .input-form:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #05f7ff;
+  }
+
+  .message:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #05f7ff;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* Rules */
+  .formulaire {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    height: auto;
+    width: auto;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .bloc1-formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    background: #635bff;
+    color: white;
+  }
+
+  .title-formulaire h1 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .title-formulaire p {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .information-formulaire {
+  }
+
+  .iconText-formulaire {
+    display: flex;
+    padding: 0px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .iconText-formulaire .icon {
+    padding: 0px;
+    font-size: 14px;
+  }
+
+  .iconText-formulaire .text {
+    padding: 0px;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+
+  .socialMedia-formulaire {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .social-icon {
+    font-size: 20px;
+  }
+
+  .social-icon a {
+    display: flex;
+    align-items: center;
+  }
+
+  .bloc2-formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    height: auto;
+    width: auto;
+    background: #fafafc;
+    font-size: 14px;
+  }
+
+  .bloc2-formulaire .group1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .bloc2-formulaire .group2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .input-form {
+    display: flex;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    height: 20px;
+    width: 100%;
+    background-color: #fafafc;
+    font-size: 14px;
+    width: 140px;
+  }
+
+  .bloc2-radioButton {
+    margin-top: 20px;
+  }
+
+  .radio-button {
+    margin-top: 10px;
+  }
+
+  .container-radioButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .radioButton-container {
+  }
+
+  .message-formualaire {
+    margin-top: 20px;
+  }
+
+  .label-message {
+    display: flex;
+  }
+
+  .message {
+    height: 60px;
+    width: 100%;
+    margin-top: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    background-color: #fafafc;
+  }
+
+  .btn-formulaire {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  .input-form:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #05f7ff;
+  }
+
+  .message:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #05f7ff;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* Rules */
+  .formulaire {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    height: auto;
+    width: auto;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .bloc1-formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    background: #635bff;
+    color: white;
+  }
+
+  .title-formulaire h1 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .title-formulaire p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .information-formulaire {
+  }
+
+  .iconText-formulaire {
+    display: flex;
+    padding: 0px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .iconText-formulaire .icon {
+    padding: 0px;
+    font-size: 14px;
+  }
+
+  .iconText-formulaire .text {
+    padding: 0px;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+
+  .socialMedia-formulaire {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .social-icon {
+    font-size: 20px;
+  }
+
+  .social-icon a {
+    display: flex;
+    align-items: center;
+  }
+
+  .bloc2-formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    height: auto;
+    width: auto;
+    background: #fafafc;
+    font-size: 14px;
+  }
+
+  .bloc2-formulaire .group1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .bloc2-formulaire .group2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .input-form {
+    display: flex;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    height: 20px;
+    width: 100%;
+    background-color: #fafafc;
+    font-size: 14px;
+    width: 140px;
+  }
+
+  .bloc2-radioButton {
+    margin-top: 40px;
+  }
+
+  .radio-button {
+    margin-top: 20px;
+  }
+
+  .container-radioButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .radioButton-container {
+  }
+
+  .message-formualaire {
+    margin-top: 40px;
+  }
+
+  .label-message {
+    display: flex;
+  }
+
+  .message {
+    height: 80px;
+    width: 100%;
+    margin-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    background-color: #fafafc;
+  }
+
+  .btn-formulaire {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+  }
+  .input-form:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #05f7ff;
+  }
+
+  .message:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #05f7ff;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Rules */
+  .formulaire {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    height: auto;
+    width: auto;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .bloc1-formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    background: #635bff;
+    color: white;
+  }
+
+  .title-formulaire h1 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .title-formulaire p {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .information-formulaire {
+  }
+
+  .iconText-formulaire {
+    display: flex;
+    padding: 0px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .iconText-formulaire .icon {
+    padding: 0px;
+    font-size: 18px;
+  }
+
+  .iconText-formulaire .text {
+    padding: 0px;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  .socialMedia-formulaire {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .social-icon {
+    font-size: 25px;
+  }
+
+  .social-icon a {
+    display: flex;
+    align-items: center;
+  }
+
+  .bloc2-formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    height: auto;
+    width: auto;
+    background: #fafafc;
+    font-size: 18px;
+  }
+
+  .bloc2-formulaire .group1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .bloc2-formulaire .group2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .input-form {
+    display: flex;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    height: 20px;
+    width: 100%;
+    background-color: #fafafc;
+    font-size: 16px;
+    width: 180px;
+  }
+
+  .bloc2-radioButton {
+    margin-top: 40px;
+  }
+
+  .radio-button {
+    margin-top: 20px;
+  }
+
+  .container-radioButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .radioButton-container {
+  }
+
+  .message-formualaire {
+    margin-top: 40px;
+  }
+
+  .label-message {
+    display: flex;
+  }
+
+  .message {
+    height: 80px;
+    width: 100%;
+    margin-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    background-color: #fafafc;
+  }
+
+  .btn-formulaire {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+  }
+  .input-form:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #05f7ff;
+  }
+
+  .message:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #05f7ff;
+  }
+}

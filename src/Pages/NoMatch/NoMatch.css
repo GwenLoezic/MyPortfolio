@@ -1,0 +1,42 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  /* Rules */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* Rules */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* Rules */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Rules */
+}
+
+.NoMatch {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+.container {
+  margin-top: 50px;
+  height: 250px;
+  width: auto;
+}

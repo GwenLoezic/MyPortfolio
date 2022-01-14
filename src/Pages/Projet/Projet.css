@@ -1,0 +1,353 @@
+/* Small devices (landscape phones, 360px and up) */
+@media (min-width: 360px) {
+  /* Rules */
+  .Projet {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200vh;
+    width: 100%;
+  }
+
+  .bloc1-projet {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .bloc1-projet-titre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #my-title {
+    text-align: center;
+    color: #635bff;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  #my-p {
+    text-align: center;
+    color: grey;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 20px;
+  }
+
+  .bloc1-projet-projet {
+  }
+
+  .bloc2-projet {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #fafafc;
+  }
+
+  .bloc2-projet-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bloc2-projet-image img {
+    margin: 20px;
+    height: auto;
+    width: 90%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  /* Rules */
+  .Projet {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200vh;
+    width: 100%;
+  }
+
+  .bloc1-projet {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .bloc1-projet-titre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #my-title {
+    text-align: center;
+    color: #635bff;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  #my-p {
+    text-align: center;
+    color: grey;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 20px;
+  }
+
+  .bloc1-projet-projet {
+  }
+
+  .bloc2-projet {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #fafafc;
+  }
+
+  .bloc2-projet-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bloc2-projet-image img {
+    margin: 20px;
+    height: auto;
+    width: 60%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* Rules */
+  .Projet {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200vh;
+    width: 100%;
+  }
+
+  .bloc1-projet {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .bloc1-projet-titre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #my-title {
+    text-align: center;
+    color: #635bff;
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+
+  #my-p {
+    text-align: center;
+    color: grey;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 20px;
+  }
+
+  .bloc1-projet-projet {
+  }
+
+  .bloc2-projet {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #fafafc;
+  }
+
+  .bloc2-projet-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bloc2-projet-image img {
+    margin: 20px;
+    height: 40%;
+    width: 40%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* Rules */
+  .Projet {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200vh;
+    width: 100%;
+  }
+
+  .bloc1-projet {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .bloc1-projet-titre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #my-title {
+    text-align: center;
+    color: #635bff;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+
+  #my-p {
+    text-align: center;
+    color: grey;
+    font-size: 19px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 30px;
+  }
+
+  .bloc1-projet-projet {
+  }
+
+  .bloc2-projet {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #fafafc;
+  }
+
+  .bloc2-projet-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bloc2-projet-image img {
+    margin: 20px;
+    height: 40%;
+    width: 40%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Rules */
+  .Projet {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200vh;
+    width: 100%;
+  }
+
+  .bloc1-projet {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .bloc1-projet-titre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #my-title {
+    text-align: center;
+    color: #635bff;
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+
+  #my-p {
+    text-align: center;
+    color: grey;
+    font-size: 22px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .bloc1-projet-projet {
+  }
+
+  .bloc2-projet {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #fafafc;
+  }
+
+  .bloc2-projet-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bloc2-projet-image img {
+    margin: 20px;
+    height: 80%;
+    width: 40%;
+  }
+}

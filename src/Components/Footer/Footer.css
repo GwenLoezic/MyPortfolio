@@ -1,0 +1,274 @@
+/* XSmall devices (landscape phones, 360px and up) */
+@media (min-width: 360px) {
+  /* Rules */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: grey;
+    height: 70px;
+    width: auto;
+  }
+
+  .list-item-footer {
+    height: auto;
+    width: 60%;
+  }
+
+  .item-footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .item {
+  }
+
+  .item-item {
+    font-weight: 600;
+    text-decoration: none;
+    color: grey;
+    font-size: 10px;
+  }
+
+  .social-nav-footer {
+    height: auto;
+    width: 30%;
+  }
+
+  .footer-nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav-footer a {
+    font-size: 10px;
+  }
+
+  .copyright p {
+    display: flex;
+    justify-content: center;
+    font-size: 6px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  /* Rules */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: grey;
+    height: 80px;
+    width: auto;
+  }
+
+  .list-item-footer {
+    height: auto;
+    width: 60%;
+  }
+
+  .item-footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .item {
+  }
+
+  .item-item {
+    font-weight: 600;
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+  }
+
+  .social-nav-footer {
+    height: auto;
+    width: 30%;
+  }
+
+  .footer-nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav-footer a {
+    font-size: 12px;
+  }
+
+  .copyright p {
+    display: flex;
+    justify-content: center;
+    font-size: 8px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* Rules */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: grey;
+    height: 90px;
+    width: auto;
+  }
+
+  .list-item-footer {
+    height: auto;
+    width: 60%;
+  }
+
+  .item-footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .item {
+  }
+
+  .item-item {
+    font-weight: 600;
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+  }
+
+  .social-nav-footer {
+    height: auto;
+    width: 30%;
+  }
+
+  .footer-nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav-footer a {
+    font-size: 14px;
+  }
+
+  .copyright p {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* Rules */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: grey;
+    height: 100px;
+    width: auto;
+  }
+
+  .list-item-footer {
+    height: auto;
+    width: 50%;
+  }
+
+  .item-footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .item {
+  }
+
+  .item-item {
+    font-weight: 600;
+    text-decoration: none;
+    color: grey;
+    font-size: 16px;
+  }
+
+  .social-nav-footer {
+    height: auto;
+    width: 25%;
+  }
+
+  .footer-nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav-footer a {
+    font-size: 16px;
+  }
+
+  .copyright p {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Rules */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: grey;
+    height: 110px;
+    width: auto;
+  }
+
+  .list-item-footer {
+    height: auto;
+    width: 50%;
+  }
+
+  .item-footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .item {
+  }
+
+  .item-item {
+    font-weight: 600;
+    text-decoration: none;
+    color: grey;
+    font-size: 16px;
+  }
+
+  .social-nav-footer {
+    height: auto;
+    width: 25%;
+  }
+
+  .footer-nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav-footer a {
+    font-size: 16px;
+  }
+
+  .copyright p {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+}
